@@ -18,7 +18,7 @@
 ## 🛠️ Tech Stack
 
 **Languages:** Python, Java, C, SQL, JavaScript
-**Tools:** Git, Linux
+**Tools:** Git
 **Libraries:** PyTorch, scikit-learn
 
 ---
