@@ -50,7 +50,6 @@
 ## 📫 Contact
 
 * 📧 Email: [baxie@berkeley.edu](mailto:baxie@berkeley.edu)
-* 🔗 LinkedIn: (add your link)
 
 ---
 
