@@ -15,11 +15,11 @@
       <p>
         I'm a <b>Data Science</b> major and <b>Computer Science</b> minor at UC Berkeley. 
         I love the intersection of robust backend systems and intelligent data pipelines. 
-        When I'm not debugging Scheme interpreters or tuning XGBoost models, you can find me exploring the East Asian Library or enjoying the SF bay breeze.
+        When I'm not stuck in <b>CS 189</b> (Machine Learning) or <b>CS 161</b> (Security) labs, you can probably find me hunting for the best coffee in Berkeley or taking a long walk to clear my head.
       </p>
       <p>
-        🌱 <b>Currently:</b> Diving deep into Data Mining (Data 144) and optimizing ML fairness.<br>
-        🚀 <b>Goal:</b> Building tech that makes complex data feel simple.
+        🌱 <b>Currently:</b> Learning how to build smarter models and more secure software.<br>
+        🚀 <b>Goal:</b> Creating tools that actually help people, while keeping the complex "math stuff" under the hood.
       </p>
       <p align="left">
         <a href="mailto:baxie@berkeley.edu"><img src="https://img.shields.io/badge/Email-baxie%40berkeley.edu-blue?style=flat-square&logo=gmail"></a>
