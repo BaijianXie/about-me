@@ -63,15 +63,12 @@
       To decode the model's behavior, I mapped the evaluation metrics (RMSE, MAE, and R²) into the 3D feature space shown here. <br>
       <ul>
         <li><b>Domain Shift Impact:</b> The visualization stratifies the datasets, proving the semantic domain is the strongest confounding factor (e.g., <i>Software</i> consistently shows the highest error rates, while <i>Cell Phones</i> shows the lowest).</li>
-
+    <li><b>Metric Consistency:</b> The linear trajectory between RMSE and MAE validates our evaluation framework's reliability across all configurations.</li>
       </ul>
     </td>
-    <td width="45%" valign="top">
+    <td width="55%" valign="top">
       <img src="img/datamining.png" alt="3D Scatter Plot of Evaluation Metrics" width="100%" style="border-radius:10px;"/>
     </td>
-    <ul>
-    <li><b>Metric Consistency:</b> The linear trajectory between RMSE and MAE validates our evaluation framework's reliability across all configurations.</li>
-    </ul>
   </tr>
 </table>
 
