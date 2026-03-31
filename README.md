@@ -3,7 +3,7 @@
 <table>
   <tr>
     <td width="30%" valign="top">
-      <img src="https://via.placeholder.com/300" width="100%" style="border-radius:15px;"/>
+      <img src="img/my_pic.jpg" width="100%" style="border-radius:15px;"/>
       <br><br>
       <p align="center">
         📍 <b>Berkeley, CA</b><br>
