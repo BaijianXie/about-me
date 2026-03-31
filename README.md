@@ -56,18 +56,23 @@
 
 <table>
   <tr>
-    <td width="55%" valign="top">
+    <td width="60%" valign="top">
       <b>Algorithm Benchmarking & Cost-Benefit Analysis</b><br>
-      I managed the model evaluation strategy, fine-tuning ensembles (XGBoost, LightGBM) across diverse datasets. A key engineering insight I uncovered was the <b>accuracy vs. compute trade-off</b>. While our multi-modal Bayesian Ridge model achieved the best predictive performance (Train MSE: 0.289), it incurred massive computational overhead (over 1.4 hours for 300 iterations). By benchmarking this against our text-only pipelines, I demonstrated how lighter models could achieve highly competitive scores at a fraction of the compute cost.<br><br>
-      <b>Cross-Domain Performance (3D Metric Space)</b><br>
-      To decode the model's behavior, I mapped the evaluation metrics (RMSE, MAE, and R²) into the 3D feature space shown here. <br>
+      I managed the model evaluation strategy, fine-tuning ensembles (XGBoost, LightGBM) across diverse datasets. A key engineering insight I uncovered was the <b>accuracy vs. compute trade-off</b>. While our multi-modal Bayesian Ridge model achieved the best predictive performance (Train MSE: 0.289), it incurred massive computational overhead (over 1.4 hours for 300 iterations). By benchmarking this against our text-only pipelines, I demonstrated how lighter models could achieve highly competitive scores at a fraction of the compute cost.
+    </td>
+    <td width="40%" valign="top">
+      <img src="img/datamining.png" alt="3D Scatter Plot of Evaluation Metrics" width="100%" style="border-radius:10px;"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <br>
+      <b>Cross-Domain Performance Insights (Based on the 3D Metric Space Above)</b><br>
+      To decode the model's behavior, I mapped the evaluation metrics (RMSE, MAE, and R²) into the 3D feature space shown above. 
       <ul>
         <li><b>Domain Shift Impact:</b> The visualization stratifies the datasets, proving the semantic domain is the strongest confounding factor (e.g., <i>Software</i> consistently shows the highest error rates, while <i>Cell Phones</i> shows the lowest).</li>
-    <li><b>Metric Consistency:</b> The linear trajectory between RMSE and MAE validates our evaluation framework's reliability across all configurations.</li>
+        <li><b>Metric Consistency:</b> The linear trajectory between RMSE and MAE validates our evaluation framework's reliability across all configurations.</li>
       </ul>
-    </td>
-    <td width="55%" valign="top">
-      <img src="img/datamining.png" alt="3D Scatter Plot of Evaluation Metrics" width="100%" style="border-radius:10px;"/>
     </td>
   </tr>
 </table>
