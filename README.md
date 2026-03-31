@@ -15,7 +15,7 @@
       <p>
         I'm a <b>Data Science</b> major and <b>Computer Science</b> minor at UC Berkeley. 
         I love the intersection of robust backend systems and intelligent data pipelines. 
-        When I'm not stuck in <b>CS 189</b> (Machine Learning) or <b>CS 161</b> (Security) labs, you can probably find me hunting for the best coffee in Berkeley or taking a long walk to clear my head.
+        When I'm not stuck in <b>CS 189</b> (Machine Learning) or <b>CS 161</b> (Security), you can probably find me hunting for the best coffee in Berkeley or taking a long walk to clear my head.
       </p>
       <p>
         🌱 <b>Currently:</b> Learning how to build smarter models and more secure software.<br>
