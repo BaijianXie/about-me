@@ -66,7 +66,6 @@
   </tr>
   <tr>
     <td colspan="2" valign="top">
-      <br>
       <b>Cross-Domain Performance Insights (Based on the 3D Metric Space Above)</b><br>
       To decode the model's behavior, I mapped the evaluation metrics (RMSE, MAE, and R²) into the 3D feature space shown above. 
       <ul>
