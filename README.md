@@ -51,7 +51,7 @@
 
 ### 🌟 Amazon Review Multi-Modal Prediction: Evaluation & Trade-off Analysis
 > **Stack:** Python, BERT, XGBoost, Bayesian Ridge, Performance Benchmarking
-- **Role:** Evaluation & Interpretability Lead (Team of 3 for Data 144).
+- **Role:** Evaluation & Interpretability Lead (Team of 6 for Data 144).
 - **Contributions:** Designed the benchmarking pipeline across 800K+ records, evaluating trade-offs between text-only and multi-modal (Image + Text) architectures.
 
 <table>
