@@ -68,12 +68,12 @@
     <td width="50%" valign="top">
       <b>Dynamic Field of View (Fog of War)</b><br>
       Implemented DFS-based maze generation with dynamic line-of-sight mechanics. As shown, the player (<code>@</code>) is restricted to a limited illuminated radius and must navigate the dark, randomized maze to collect all the coins (<code>C</code>) to win.<br><br>
-      <img src="img/world_s" width="100%" style="border-radius:10px;"/>
+      <img src="img/world_s.jpn" width="100%" style="border-radius:10px;"/>
     </td>
     <td width="50%" valign="top">
       <b>System Interface & Replay Mode</b><br>
       Beyond standard save/load features, the core technical highlight is the input sequence capture system. Players can select the <code>(R) Replay</code> option from the main menu to perfectly reconstruct and watch their previous playthroughs step-by-step.<br><br>
-      <img src="img/adv_mis"  width="100%" style="border-radius:10px;"/>
+      <img src="img/adv_mis.jpn"  width="100%" style="border-radius:10px;"/>
     </td>
   </tr>
 </table>
