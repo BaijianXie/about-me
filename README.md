@@ -1,7 +1,6 @@
 # Hi, I'm Baijian 👋
 
 🎓 Data Science @ UC Berkeley
-💻 Aspiring Software Engineer
 📊 Interested in Data Systems, Backend Development, and Machine Learning
 
 ---
