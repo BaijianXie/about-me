@@ -2,27 +2,21 @@
 
 <table>
   <tr>
-    <td width="30%" valign="top">
-      <img src="https://via.placeholder.com/300" width="100%" style="border-radius:15px;"/>
-      <br><br>
-      <p align="center">
-        📍 <b>Berkeley, CA</b><br>
-        🎓 <b>UC Berkeley '27</b>
-      </p>
-    </td>
-    <td width="70%" valign="top">
+<td width="70%" valign="top">
       <h1>Hi, I'm Baijian 👋</h1>
       <p>
-        I'm a <b>Data Science</b> major and <b>Computer Science</b> minor at UC Berkeley. 
-        I love the intersection of robust backend systems and intelligent data pipelines. 
-        When I'm not debugging Scheme interpreters or tuning XGBoost models, you can find me exploring the East Asian Library or enjoying the SF bay breeze.
+        I'm a <b>Data Science</b> student at UC Berkeley who also happens to love <b>Computer Science</b>. 
+        I enjoy the "aha!" moment when messy data finally starts making sense, or when a stubborn piece of code finally runs.
       </p>
       <p>
-        🌱 <b>Currently:</b> Diving deep into Data Mining (Data 144) and optimizing ML fairness.<br>
-        🚀 <b>Goal:</b> Building tech that makes complex data feel simple.
+        When I'm not stuck in <b>CS 189</b> (Machine Learning) or <b>CS 161</b> (Security) labs, you can probably find me hunting for the best coffee in Berkeley or taking a long walk to clear my head.
+      </p>
+      <p>
+        🌱 <b>Currently:</b> Learning how to build smarter models and more secure software.<br>
+        🚀 <b>Goal:</b> Creating tools that actually help people, while keeping the complex "math stuff" under the hood.
       </p>
       <p align="left">
-        <a href="mailto:baxie@berkeley.edu"><img src="https://img.shields.io/badge/Email-baxie%40berkeley.edu-blue?style=flat-square&logo=gmail"></a>
+        <a href="mailto:baxie@berkeley.edu"><img src="https://img.shields.io/badge/Say%20Hi!-baxie%40berkeley.edu-blue?style=flat-square&logo=gmail"></a>
       </p>
     </td>
   </tr>
