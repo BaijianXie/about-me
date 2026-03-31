@@ -52,32 +52,22 @@
 ### 🌟 Amazon Review Multi-Modal Prediction: Evaluation & Trade-off Analysis
 > **Stack:** Python, BERT, XGBoost, Bayesian Ridge, Performance Benchmarking
 - **Role:** Evaluation & Interpretability Lead (Team of 3 for Data 144).
-- **Contributions:** Designed the benchmarking pipeline across 800K+ records, evaluating trade-offs between text-only (BERT/TF-IDF) and multi-modal (Image + Text) architectures.
+- **Contributions:** Designed the benchmarking pipeline across 800K+ records, evaluating trade-offs between text-only and multi-modal (Image + Text) architectures.
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="55%" valign="top">
       <b>Algorithm Benchmarking & Cost-Benefit Analysis</b><br>
-      I managed the model evaluation strategy, fine-tuning ensembles (XGBoost, LightGBM) across diverse datasets. A key engineering insight I uncovered was the <b>accuracy vs. compute trade-off</b>. While our multi-modal Bayesian Ridge model (integrating visual features) achieved the best predictive performance (Train MSE: 0.289), it incurred massive computational overhead (over 1.4 hours for 300 iterations). By benchmarking this against our BERT/TF-IDF text-only pipelines, I demonstrated how lighter models could achieve highly competitive RMSE scores at a fraction of the compute cost.<br><br>
-      <b>Model Interpretability (Explainable AI)</b><br>
-      Beyond raw metrics, I took ownership of decoding the "black-box" predictions. I generated comprehensive visual analyses to explain exactly how interacting features influenced a review's "helpfulness" score, bridging the gap between complex model behaviors and human-readable insights.
-    </td>
-    <td width="50%" valign="top">
-      <img src="img/datamining.png" alt="Feature Importance Analysis" width="100%" style="border-radius:10px;"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="img/3d_evaluation_plot.png" alt="3D Scatter Plot of RMSE, MAE, and R2" width="100%" style="border-radius:10px;"/>
-    </td>
-    <td width="50%" valign="top">
-      <b>Cross-Domain Performance Analysis (3D Metric Space)</b><br>
-      To deeply understand how <b>domain shift</b> impacts model robustness, I mapped the evaluation metrics (RMSE, MAE, and R²) across all dataset-model combinations into a 3D feature space. <br><br>
-      <b>Key Analytical Insights:</b>
+      I managed the model evaluation strategy, fine-tuning ensembles (XGBoost, LightGBM) across diverse datasets. A key engineering insight I uncovered was the <b>accuracy vs. compute trade-off</b>. While our multi-modal Bayesian Ridge model achieved the best predictive performance (Train MSE: 0.289), it incurred massive computational overhead (over 1.4 hours for 300 iterations). By benchmarking this against our text-only pipelines, I demonstrated how lighter models could achieve highly competitive scores at a fraction of the compute cost.<br><br>
+      <b>Cross-Domain Performance (3D Metric Space)</b><br>
+      To decode the model's behavior, I mapped the evaluation metrics (RMSE, MAE, and R²) into the 3D feature space shown here. <br>
       <ul>
-        <li><b>The Impact of Domain Shift:</b> The visualization clearly stratifies the datasets. The <i>Software</i> domain consistently exhibits the highest error rates (hardest to predict), while <i>Cell Phones</i> shows the lowest. This proves that the semantic domain is the strongest confounding factor affecting NLP model performance.</li>
-        <li><b>Metric Consistency:</b> The linear trajectory between RMSE and MAE across all configurations demonstrates that both metrics capture the exact same difficulty pattern, validating the reliability of our evaluation framework regardless of the text extractor used.</li>
+        <li><b>Domain Shift Impact:</b> The visualization stratifies the datasets, proving the semantic domain is the strongest confounding factor (e.g., <i>Software</i> consistently shows the highest error rates, while <i>Cell Phones</i> shows the lowest).</li>
+        <li><b>Metric Consistency:</b> The linear trajectory between RMSE and MAE validates our evaluation framework's reliability across all configurations.</li>
       </ul>
+    </td>
+    <td width="45%" valign="top">
+      <img src="img/datamining.png" alt="3D Scatter Plot of Evaluation Metrics" width="100%" style="border-radius:10px;"/>
     </td>
   </tr>
 </table>
