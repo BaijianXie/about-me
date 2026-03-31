@@ -67,7 +67,7 @@
     <td width="45%" valign="top">
       <b>Algorithmic Fairness & Bias Detection</b><br>
       Rather than solely focusing on top-line accuracy, I conducted a critical audit of the model's error distribution. As the visualizations reveal, the assessment process exhibits a systemic regressive bias. <br><br>
-      The right-hand chart clearly demonstrates that the model systematically <b>overvalues inexpensive properties</b> (with overestimation rates nearing 100% for lower-log-price tiers) while <b>undervaluing expensive properties</b>. This insight is crucial for understanding the real-world socio-economic impact of deploying flawed predictive models in public policy and property taxation.
+      The left-hand chart clearly demonstrates that the model systematically <b>overvalues inexpensive properties</b> (with overestimation rates nearing 100% for lower-log-price tiers) while <b>undervaluing expensive properties</b>. This insight is crucial for understanding the real-world socio-economic impact of deploying flawed predictive models in public policy and property taxation.
     </td>
   </tr>
 </table>
