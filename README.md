@@ -59,10 +59,11 @@
 - Processed **500K+** records to forecast property values.
 - **Result:** Achieved **74% prediction accuracy** through iterative EDA and feature engineering. - Audited the model for fairness and racial equity in property valuation.
 
-### 🎮 2D Game Engine & WordNet
-> **Stack:** Java, Data Structures, Graph Theory
-- Developed a tile-based world with dynamic generation (CS 61B style).
-- Designed a WordNet engine using Directed Acyclic Graphs (DAGs) for semantic queries.
+### 🎮 2D Game Engine: Dynamic World Generation & Exploration
+> **Stack:** Java, Data Structures, Algorithms (DFS, Dynamic FOV), Event Handling
+- Architected and implemented a fully-functional 2D tile-based game engine from scratch (CS 61B style).
+- Engineered a dynamic world generation pipeline ensuring unique, navigable mazes for every playthrough.
+- Developed core gameplay mechanics, including user input systems, inventory/scoring (coin collection), and win/loss conditions.
 <table>
   <tr>
     <td width="50%" valign="top">
