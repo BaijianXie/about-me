@@ -54,10 +54,23 @@
 - Built a pipeline to predict review helpfulness using text embeddings and metadata.
 - Explored how nonlinear interactions between features impact user trust.
 
-### 🏠 Cook County Housing Analysis (Big Data)
-> **Stack:** Python, Scikit-learn, EDA
-- Processed **500K+** records to forecast property values.
-- **Result:** Achieved **74% prediction accuracy** through iterative EDA and feature engineering. - Audited the model for fairness and racial equity in property valuation.
+### 🏠 Cook County Housing Analysis: Predictive Modeling & Fairness Audit
+> **Stack:** Python, Scikit-learn, Pandas, Matplotlib, EDA
+- Engineered a robust machine learning pipeline to forecast property values across Cook County using **500K+** real estate records.
+- Achieved strong baseline predictive accuracy through iterative feature engineering and exploratory data analysis (EDA).
+
+<table>
+  <tr>
+    <td width="55%" valign="top">
+      <img src="img/housing_fairness.jpg" alt="Model Fairness and Error Distribution Plot" width="100%" style="border-radius:10px;"/>
+    </td>
+    <td width="45%" valign="top">
+      <b>Algorithmic Fairness & Bias Detection</b><br>
+      Rather than solely focusing on top-line accuracy, I conducted a critical audit of the model's error distribution. As the visualizations reveal, the assessment process exhibits a systemic regressive bias. <br><br>
+      The right-hand chart clearly demonstrates that the model systematically <b>overvalues inexpensive properties</b> (with overestimation rates nearing 100% for lower-log-price tiers) while <b>undervaluing expensive properties</b>. This insight is crucial for understanding the real-world socio-economic impact of deploying flawed predictive models in public policy and property taxation.
+    </td>
+  </tr>
+</table>
 
 ### 🎮 2D Game Engine: Dynamic World Generation & Exploration
 > **Stack:** Java, Data Structures, Algorithms (DFS, Dynamic FOV), Event Handling
