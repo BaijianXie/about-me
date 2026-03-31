@@ -68,8 +68,10 @@
     </td>
     <td width="45%" valign="top">
       <img src="img/datamining.png" alt="3D Scatter Plot of Evaluation Metrics" width="100%" style="border-radius:10px;"/>
-      <li><b>Metric Consistency:</b> The linear trajectory between RMSE and MAE validates our evaluation framework's reliability across all configurations.</li>
     </td>
+    <ul>
+    <li><b>Metric Consistency:</b> The linear trajectory between RMSE and MAE validates our evaluation framework's reliability across all configurations.</li>
+    </ul>
   </tr>
 </table>
 
