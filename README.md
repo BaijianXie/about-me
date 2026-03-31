@@ -68,6 +68,7 @@
     </td>
   </tr>
 </table>
+
 ### 🏠 Cook County Housing Analysis: Predictive Modeling & Fairness Audit
 > **Stack:** Python, Scikit-learn, Pandas, Matplotlib, EDA
 - Engineered a robust machine learning pipeline to forecast property values across Cook County using **500K+** real estate records.
