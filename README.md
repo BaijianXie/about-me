@@ -57,7 +57,7 @@
 ### 🏠 Cook County Housing Analysis (Big Data)
 > **Stack:** Python, Scikit-learn, EDA
 - Processed **500K+** records to forecast property values.
-- **Result:** Reduced model error by **80%** while auditing the model for racial equity and bias.
+- **Result:** Achieved **74% prediction accuracy** through iterative EDA and feature engineering. - Audited the model for fairness and racial equity in property valuation.
 
 ### 🎮 2D Game Engine & WordNet
 > **Stack:** Java, Data Structures, Graph Theory
