@@ -49,11 +49,25 @@
 
 ## 📂 Project Showcase
 
-### 🌟 Amazon Review Prediction (Multi-modal ML)
-> **Stack:** XGBoost, LightGBM, BERT, NLP
-- Built a pipeline to predict review helpfulness using text embeddings and metadata.
-- Explored how nonlinear interactions between features impact user trust.
+### 🌟 Amazon Review Multi-Modal Prediction: Evaluation & Trade-off Analysis
+> **Stack:** Python, BERT, XGBoost, Bayesian Ridge, Performance Benchmarking
+- **Role:** Evaluation & Interpretability Lead (Team of 3 for Data 144).
+- **Contributions:** Designed the benchmarking pipeline across 800K+ records, evaluating trade-offs between text-only (BERT/TF-IDF) and multi-modal (Image + Text) architectures.
 
+<table>
+  <tr>
+    <td width="55%" valign="top">
+      <b>Algorithm Benchmarking & Cost-Benefit Analysis</b><br>
+      I managed the model evaluation strategy, fine-tuning ensembles (XGBoost, LightGBM) across diverse datasets (e.g., Software, Beauty, Cell Phones). <br><br>
+      A key engineering insight I uncovered was the <b>accuracy vs. compute trade-off</b>. While our multi-modal Bayesian Ridge model (integrating visual features) achieved the best predictive performance (Train MSE: 0.289), it incurred massive computational overhead (over 1.4 hours for 300 iterations). By benchmarking this against our BERT/TF-IDF text-only pipelines, I demonstrated how lighter models could achieve highly competitive RMSE scores at a fraction of the compute cost—a critical consideration for scalable, real-world deployments.
+    </td>
+    <td width="45%" valign="top">
+      <b>Model Interpretability (Explainable AI)</b><br>
+      Beyond raw metrics, I took ownership of decoding the "black-box" predictions. I generated comprehensive visual analyses to explain exactly how interacting features influenced a review's "helpfulness" score. This ability to translate complex model behaviors into human-readable insights was vital for validating our architecture's logic.<br><br>
+      <img src="img/datamining.png" alt="Feature Importance Analysis" width="100%" style="border-radius:10px;"/>
+    </td>
+  </tr>
+</table>
 ### 🏠 Cook County Housing Analysis: Predictive Modeling & Fairness Audit
 > **Stack:** Python, Scikit-learn, Pandas, Matplotlib, EDA
 - Engineered a robust machine learning pipeline to forecast property values across Cook County using **500K+** real estate records.
