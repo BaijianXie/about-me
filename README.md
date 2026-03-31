@@ -63,7 +63,25 @@
 > **Stack:** Java, Data Structures, Graph Theory
 - Developed a tile-based world with dynamic generation (CS 61B style).
 - Designed a WordNet engine using Directed Acyclic Graphs (DAGs) for semantic queries.
+### 🎮 2D Game Engine & WordNet
+> **Stack:** Java, Data Structures, Graph Theory
+- Developed a tile-based world with dynamic generation (CS 61B style).
+- Designed a WordNet engine using Directed Acyclic Graphs (DAGs) for semantic queries.
 
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <b>动态视野与迷宫探索 (Fog of War)</b><br>
+      实现了基于深度优先搜索 (DFS) 的迷宫生成和动态视野限制。如图所示，玩家 (<code>@</code>) 只能看到周围有限的亮区，需要在未知的黑暗迷宫中探索并收集所有金币 (<code>C</code>) 以通关。<br><br>
+      <img src="img/gameplay_with_fog.png" alt="Gameplay with Fog" width="100%" style="border-radius:10px;"/>
+    </td>
+    <td width="50%" valign="top">
+      <b>系统界面与重播 (Replay) 模式</b><br>
+      除了基础的保存/加载功能，项目最核心的亮点是实现了输入序列捕获。玩家可以通过主菜单的 <code>(R) Replay</code> 模式，完整重演之前游戏通关的每一个操作细节。<br><br>
+      <img src="img/main_menu_with_replay.png" alt="Main Menu with Replay" width="100%" style="border-radius:10px;"/>
+    </td>
+  </tr>
+</table>
 ---
 
 ## 📈 Activity Stats
