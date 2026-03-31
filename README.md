@@ -1,55 +1,80 @@
-# Hi, I'm Baijian 👋
+# ⚡ Welcome to my space! 
 
-🎓 Data Science @ UC Berkeley
-📊 Interested in Data Systems, Backend Development, and Machine Learning
-
----
-
-## 🚀 About Me
-
-* 💡 Passionate about building scalable systems and solving real-world problems with data
-* 🧠 Strong foundation in data structures, algorithms, and system design
-* 📈 Experience working with large datasets (500K+ records) and building ML pipelines
-* 🌱 Currently exploring backend development and AI systems
-
----
-
-## 🛠️ Tech Stack
-
-**Languages:** Python, Java, C, SQL, JavaScript
-**Tools:** Git
-**Libraries:** PyTorch, scikit-learn
-
----
-
-## 📌 Featured Projects
-
-### 🔹 Scheme Interpreter (Python)
-
-* Built an interpreter for a subset of the Scheme language using recursive evaluation
-* Implemented lexical scoping and environment models
-
-### 🔹 2D Game Engine (Java)
-
-* Developed a tile-based game engine with dynamic world generation and save/load system
-* Applied object-oriented design to manage game state and interactions
-
-### 🔹 WordNet Graph Engine (Java)
-
-* Designed a semantic graph system using DAGs for efficient word queries
-* Implemented graph traversal and optimized lookup performance
-
-### 🔹 Housing Price Prediction Pipeline (Python)
-
-* Built a scalable pipeline to process 500K+ property records
-* Designed modular preprocessing and improved model performance through optimization
+<table>
+  <tr>
+    <td width="30%" valign="top">
+      <img src="https://via.placeholder.com/300" width="100%" style="border-radius:15px;"/>
+      <br><br>
+      <p align="center">
+        📍 <b>Berkeley, CA</b><br>
+        🎓 <b>UC Berkeley '27</b>
+      </p>
+    </td>
+    <td width="70%" valign="top">
+      <h1>Hi, I'm Baijian 👋</h1>
+      <p>
+        I'm a <b>Data Science</b> major and <b>Computer Science</b> minor at UC Berkeley. 
+        I love the intersection of robust backend systems and intelligent data pipelines. 
+        When I'm not debugging Scheme interpreters or tuning XGBoost models, you can find me exploring the East Asian Library or enjoying the SF bay breeze.
+      </p>
+      <p>
+        🌱 <b>Currently:</b> Diving deep into Data Mining (Data 144) and optimizing ML fairness.<br>
+        🚀 <b>Goal:</b> Building tech that makes complex data feel simple.
+      </p>
+      <p align="left">
+        <a href="mailto:baxie@berkeley.edu"><img src="https://img.shields.io/badge/Email-baxie%40berkeley.edu-blue?style=flat-square&logo=gmail"></a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 📫 Contact
+## 🛠️ My Toolbox
 
-* 📧 Email: [baxie@berkeley.edu](mailto:baxie@berkeley.edu)
+### 💻 Programming & Systems
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=java&logoColor=white)
+![C](https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=white)
+![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+### 📊 Data Science & AI
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Scikit--learn](https://img.shields.io/badge/-Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/-BERT/NLP-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 
 ---
 
-⭐️ Feel free to check out my repositories and connect!
+## 📂 Project Showcase
+
+### 🌟 Amazon Review Prediction (Multi-modal ML)
+> **Stack:** XGBoost, LightGBM, BERT, NLP
+- Built a pipeline to predict review helpfulness using text embeddings and metadata.
+- Explored how nonlinear interactions between features impact user trust.
+
+### 🏠 Cook County Housing Analysis (Big Data)
+> **Stack:** Python, Scikit-learn, EDA
+- Processed **500K+** records to forecast property values.
+- **Result:** Reduced model error by **80%** while auditing the model for racial equity and bias.
+
+### 🎮 2D Game Engine & WordNet
+> **Stack:** Java, Data Structures, Graph Theory
+- Developed a tile-based world with dynamic generation (CS 61B style).
+- Designed a WordNet engine using Directed Acyclic Graphs (DAGs) for semantic queries.
+
+---
+
+## 📈 Activity Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=BaijianXie&show_icons=true&theme=buefy&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BaijianXie&layout=compact&theme=buefy&hide_border=true" width="45%" />
+</p>
+
+---
+
+<p align="center">
+  <i>"Data is the new oil, but only if you have the right engine."</i>
+</p>
