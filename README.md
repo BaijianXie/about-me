@@ -79,16 +79,3 @@
   </tr>
 </table>
 ---
-
-## 📈 Activity Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=BaijianXie&show_icons=true&theme=buefy&hide_border=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BaijianXie&layout=compact&theme=buefy&hide_border=true" width="45%" />
-</p>
-
----
-
-<p align="center">
-  <i>"Data is the new oil, but only if you have the right engine."</i>
-</p>
